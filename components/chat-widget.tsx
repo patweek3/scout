@@ -58,7 +58,7 @@ export function FloatingChatWidget() {
     const timer = setTimeout(() => {
       setIsChatOpen(true);
       setIsMinimized(false);
-    }, 1500);
+    }, 3500);
     return () => clearTimeout(timer);
   }, []);
 
